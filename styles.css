@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	padding:0px;
+}
+
+
+@font-face{
+font-family:"Trajan Pro 3";
+src:url(../trajan.otf);
+}
+
+h1{
+	font-family:"Trajan Pro 3";
+	width:500px;
+	margin:5px;
+	padding:20px;
+	font-weight:100;
+	letter-spacing:2px;
+}
+
+body{
+	background:url(home.jpg) fixed;
+	padding:0px;
+}
+
+p{
+	width:730px;
+	line-height:1.5;
+	font-size:15px;
+	margin:15px;
+	padding:20px;
+	background-color:rgba(30,30,30,0);
+	border-top:1px solid rgba(51,51,51,0);
+}
+
+#container{
+	width:1024px;
+	min-height:800px;
+	height:auto;
+	background-color:rgba(0,0,0,.6);
+	margin-top:35px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:4px solid #BFA54F;
+	
+}
+
+#top_menu{
+	width:976px;
+	padding:12px;
+	margin-left:12px;
+	margin-right:12px;
+	height:20px;
+	background-color:rgba(106,67,34,1);
+	border-top:0px dashed #BFA54F;
+	border-left:0px solid #BFA54F;
+	-moz-box-shadow: 1px 7px 17px #000000;
+-webkit-box-shadow: 1px 7px 17px #000000;
+box-shadow: 1px 7px 17px #000000;
+}
+
+#top_menu ul{
+	background-color:none;
+	margin-top:0px;
+}
+
+#top_menu ul li{
+	background-color:none;
+	list-style:none;
+	display:inline-block;
+	width:215px;
+	height:10px;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+
+#top_menu ul li a{
+	color:#FFF;
+	text-decoration: none;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:13px;
+	width:215px;
+	height:100px;
+	padding-left:52px;
+	padding-right:52px;
+	padding-bottom:15px;
+	padding-top:10px;
+	background-color:rgba(0,0,0,0);
+}
+
+#top_menu ul li a:hover{
+	background-color:rgba(0,0,0,0);
+	border-bottom:2px solid #BFA54F;
+	
+}
+/*----------------------Left Menu-------------------------------------*/
+
+#left_menu{
+	width:170px;
+	height:600px;
+	margin-top:20px;
+	margin-left:12px;
+	float:left;
+	padding:0px;
+	background-color:rgba(51,51,51,0);
+	
+}
+
+#left_menu ul li{
+	
+	list-style:none;
+	display: list-item;
+	width:auto;
+	min-width:200px;
+	height:20px;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:-40px;
+	background-color:none;
+	margin-top:20px;
+	
+}
+
+#left_menu ul li a{
+	background-color:rgba(0,0,0,.4);
+	min-width:200px;
+	text-decoration:none;
+	color:rgba(150,150,150,1);
+	margin:0px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:13px;
+	padding-bottom:13px;
+	font-size:13px;
+	text-transform:uppercase;
+	width:auto;
+	text-align: left;
+	
+	
+	
+}
+
+#left_menu ul li a:hover{
+	background-color:rgba(0,0,0,.8);
+}
+
+/*--------------------------Footer-------------------------------------*/
+
+
+
+#footer{
+	width:1024px;
+	position:fixed;
+	height:50px;
+	background-color:rgba(0,0,0,.5);
+	margin-top:40px;
+	border-top:4px solid #BFA54F;
+	display:none;
+}
+
+#footer ul{
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#footer ul li{
+	background-color:none;
+	width:190px;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	display:inline-block;
+}
+
+#footer ul li a{
+	font-size:14px;
+	color:#FFF;
+}
+
+#footer ul li a:hover{
+	color:#BFA54F;
+}
+
+
+
+
+/*------------------------------Content--------------------------------------------------------*/
+
+#content{
+	width:820px;
+	height:600px;
+	background-color:rgba(0,0,0,.4);
+	margin-left:185px;
+	margin-top:20px;
+	color:#CCC;
+	
+	-moz-box-shadow: 1px 7px 17px #000000;
+-webkit-box-shadow: 1px 7px 17px #000000;
+box-shadow: 1px 7px 17px #000000;
+}
+
+
+
+
+/*------------------------------Social Icons--------------------------------------------------------*/
+
+
+
+
+#social{
+	position:fixed;
+	top:0px;
+	margin-top:0px;
+	display:none;
+}
+
+
+
+
+
+
+
+
